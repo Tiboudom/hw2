@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="hw2.css">
-    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
-    <script src="hw2.js"></script>
-    <title>hw2</title>
-</head>
-<body id="cat">
-    <section id="container">
-        <h1>Mike's World</h1>
-        <button onclick="chKitten();">Home</button>
-        <button onclick="chKitten();">Contact</button>
-    </section>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="hw2.css">
+        <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+        <title>hw2</title>
+    </head>
+    <body id="hw2">
+        <header class="fixed-title-bar">
+            <h1 >Mike's World</h1>
+        </header>
+        <nav>
+            <ul class="outer">
+                <li class="inner">Home</li>
+                <li class="inner">Contact</li>
+            </ul>
+        </nav>
+        <main>
+            <div class="images-title">
+                <p>My SF City Trip</p>
+                <p>The California Landscape</p>
+            </div>
+            <div class="images">
+                <img id="sf-img" src="sf.jpeg" alt="sf">
+                <img id="la-img" src="la.jpeg" alt="la">
+            </div>
+            <p class="feedback">Do people like my Page</p>
+        </main>
+        <footer>
+            <div class="comment">
+                <img src="max.jpeg" alt="Max">
+                <p>Max - Awesome page, great work, keep it up!</p>
+            </div>
+            <div class="comment">
+                <img src="manu.jpeg" alt="Manu">
+                <p>Manu - Looks really nice, beautiful pictures!</p>
+            </div>
+        </footer>
+    </body>
 </html>
